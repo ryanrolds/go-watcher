@@ -18,7 +18,7 @@ import (
 // GoPath not set error
 var ErrPathNotSet = errors.New("gopath not set")
 
-var watchedFileExt = []string{".go", ".tmpl", ".tpl", ".html"}
+var watchedFileExt = []string{".go", ".tmpl", ".tpl", ".html", ".css", ".js"}
 
 var watchDelta = 1000 * time.Millisecond
 
